@@ -10,7 +10,7 @@ open in colab:
 
 You can directly run this project in Google Colab using the following link:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<sabrish19>/<yolov8>/blob/main/facedetection_Yolov8.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<Sabrish19>/<yolov8>/blob/main/facedetection_Yolov8.ipynb)
 or 
 copy the code and past it in google colab
 1. **Clone the repository**
