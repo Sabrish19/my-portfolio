@@ -1,7 +1,7 @@
 # Real-Time Face Detection using Yolov8 Project
 
 This project is a real-time face detection and recognition system built using Python, YOLOv8, and DeepFace.  
-It detects faces from a webcam, checks if the face is already in the database, and counts the number of unique visitors.
+It detects faces from a webcam, checks if the face is already in the database, and counts the number of  visitors.
 
 ---
 
