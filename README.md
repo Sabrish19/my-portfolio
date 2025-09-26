@@ -1,6 +1,7 @@
 # Real-Time Face Detection using Yolov8 Project
 
-This repository contains a real-time face detection system built using Python, OpenCV, and YOLOv8 for face detection , Visitercountand visiter entery and Exit . The project identifies unique faces and maintains a database of captured faces.  
+This project is a real-time face detection and recognition system built using Python, YOLOv8, and DeepFace.  
+It detects faces from a webcam, checks if the face is already in the database, and counts the number of unique visitors.
 
 ---
 
@@ -26,7 +27,32 @@ source venv/bin/activate
 
 3.Install dependencies
 pip install -r requirements.txt
-4.set up config.json
+
+4.## How This Project Works
+
+   1. **Start Webcam**  
+   - The system uses your webcam to capture live video.
+
+   2. **Detect Faces**  
+   - YOLOv8 detects faces in real time and shows them on the screen.
+
+   3. **Recognize Faces**  
+   - Each detected face is compared with a database of existing faces.
+
+   4. **Check Visitor**  
+   - If the face is already in the database → marked as **“Existing Visitor”**.  
+   - If the face is new → marked as **“Unique Visitor”**, stored in the database, and visitor count increases.
+
+   5. **Show Results on Camera**  
+   - **Green box** → Unique visitor.  
+   - **Red box** → Existing visitor.  
+   - Shows the **total number of unique visitors** on the screen.
+
+   6. **Configuration**  
+   - You can set camera ID, detection confidence, and database file in `config.json`.  
+   - Example `config.json`:
+
+5.set up config.json
 {
     "camera_id": 0,
     "face_confidence_threshold": 0.6,
@@ -36,10 +62,10 @@ pip install -r requirements.txt
     "database_file": "face_database.json"
 }
 
-3.Architecture diagram:
+6.Architecture diagram:
 https://drive.google.com/file/d/1Sr3w-FR1kSZrsdZbyYnroNkQPQXlzysA/view?usp=sharing
 
-4.Video:
+7.Video:
 
 Video Link : https://drive.google.com/file/d/1ecL9BZwJTQtz00M24dAZXdXF7fUDVuL5/view?usp=sharing
 
