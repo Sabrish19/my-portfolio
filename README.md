@@ -26,6 +26,7 @@ venv\Scripts\activate
 source venv/bin/activate
 
 3.Install dependencies
+
 pip install -r requirements.txt
 
 4.## How This Project Works
