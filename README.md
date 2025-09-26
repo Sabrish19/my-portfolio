@@ -18,18 +18,18 @@ copy the code and past it in google colab
    ```bash
    git clone https://github.com/<sabrish19>/<yolov8>.git
    cd <yolov8>
-2.Create and activate a virtual environment
+2. Create and activate a virtual environment
 python -m venv venv
 # Windows
 venv\Scripts\activate
 # Linux/Mac
 source venv/bin/activate
 
-3.Install dependencies
+3. Install dependencies
 
 pip install -r requirements.txt
 
-4.## How This Project Works
+4. ## How This Project Works
 
    1. **Start Webcam**  
    - The system uses your webcam to capture live video.
@@ -53,7 +53,7 @@ pip install -r requirements.txt
    - You can set camera ID, detection confidence, and database file in `config.json`.  
    - Example `config.json`:
 
-5.set up config.json
+5. set up config.json
 {
     "camera_id": 0,
     "face_confidence_threshold": 0.6,
@@ -63,10 +63,10 @@ pip install -r requirements.txt
     "database_file": "face_database.json"
 }
 
-6.Architecture diagram:
+6. Architecture diagram:
 https://drive.google.com/file/d/1Sr3w-FR1kSZrsdZbyYnroNkQPQXlzysA/view?usp=sharing
 
-7.Video:
+7. Video:
 
 Video Link : https://drive.google.com/file/d/1ecL9BZwJTQtz00M24dAZXdXF7fUDVuL5/view?usp=sharing
 
